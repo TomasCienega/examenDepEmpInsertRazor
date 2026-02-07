@@ -1,0 +1,12 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@if (ViewData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @ViewData["Mensaje"]
+    </div>
+}

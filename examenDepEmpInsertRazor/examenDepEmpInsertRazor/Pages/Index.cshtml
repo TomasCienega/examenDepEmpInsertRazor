@@ -1,0 +1,91 @@
+﻿@page
+@model IndexModel
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col">
+            <h2><i class="bi bi-person-badge"></i> Gestión de Empleados</h2>
+            <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#modalRegistro">
+                + Nuevo Empleado
+            </button>
+        </div>
+
+        <div class="card mb-2 shadow-sm">
+            <div class="card-body bg-light">
+                <form method="get" class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label class="fw-bold">Filtrar por Departamento:</label>
+                    </div>
+                    <div class="col-md-3">
+                        <select asp-for="IdDeptoFiltro" class="form-select">
+                            <option value="0">-- Ver Todos los Empleados --</option>
+                            @foreach (var dep in Model.ListaDeptos)
+                            {
+                                <option value="@dep.IdDepartamento">@dep.NombreDepartamento</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-dark">
+                            <i class="bi bi-search"></i> Filtrar
+                        </button>
+                        <a asp-page="./Index" class="btn btn-outline-secondary">Limpiar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-hover shadow-sm border">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Departamento</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model.ListaEmpleados)
+            {
+                <tr>
+                    <td>@emp.IdEmpleado</td>
+                    <td>@emp.NombreEmpleado</td>
+                    <td><span class="badge bg-info text-dark">@emp.ReferenciaDepartamento?.NombreDepartamento</span></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modalRegistro" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-page-handler="Guardar">
+                <div class="modal-header">
+                    <h5 class="modal-title">Registrar Nuevo Empleado</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Nombre Completo</label>
+                        <input asp-for="NuevoEmpleado.NombreEmpleado" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Departamento</label>
+                        <select asp-for="NuevoEmpleado.IdDepartamento" class="form-select" required>
+                            <option value="">-- Seleccione --</option>
+                            @foreach (var dep in Model.ListaDeptos)
+                            {
+                                <option value="@dep.IdDepartamento">@dep.NombreDepartamento</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Guardar Empleado</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

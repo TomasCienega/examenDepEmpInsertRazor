@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49D1C9-86AD-4004-9458-916EA4BE995B}|examenDepEmpInsertRazor\\examenDepEmpInsertRazor.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examendepempinsertrazor\\examendepempinsertrazor\\examendepempinsertrazor\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA49D1C9-86AD-4004-9458-916EA4BE995B}|examenDepEmpInsertRazor\\examenDepEmpInsertRazor.csproj|solutionrelative:examendepempinsertrazor\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49D1C9-86AD-4004-9458-916EA4BE995B}|examenDepEmpInsertRazor\\examenDepEmpInsertRazor.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examendepempinsertrazor\\examendepempinsertrazor\\examendepempinsertrazor\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA49D1C9-86AD-4004-9458-916EA4BE995B}|examenDepEmpInsertRazor\\examenDepEmpInsertRazor.csproj|solutionrelative:examendepempinsertrazor\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49D1C9-86AD-4004-9458-916EA4BE995B}|examenDepEmpInsertRazor\\examenDepEmpInsertRazor.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examendepempinsertrazor\\examendepempinsertrazor\\examendepempinsertrazor\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA49D1C9-86AD-4004-9458-916EA4BE995B}|examenDepEmpInsertRazor\\examenDepEmpInsertRazor.csproj|solutionrelative:examendepempinsertrazor\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "examenDepEmpInsertRazor\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "examenDepEmpInsertRazor\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T22:04:55.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "examenDepEmpInsertRazor\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\Pages\\Index.cshtml",
+              "RelativeToolTip": "examenDepEmpInsertRazor\\Pages\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T19:10:06.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "examenDepEmpInsertRazor\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\examenDepEmpInsertRazor\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "examenDepEmpInsertRazor\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T19:08:22.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
